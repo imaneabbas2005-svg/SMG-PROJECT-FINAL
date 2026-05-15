@@ -356,7 +356,9 @@
       <label class="checkbox-label">
         <input type="checkbox" name="remember"> Remember me
       </label>
-      <a href="#" class="forgot-link">Forgot password?</a>
+<a href="{{ route('password.request') }}" class="forgot-link">
+    Forgot password?
+</a>
     </div>
 
     {{-- Display general validation error --}}
