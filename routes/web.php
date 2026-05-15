@@ -21,9 +21,9 @@ Route::get('/reset-password/{token}', [ResetPasswordController::class, 'showRese
 Route::post('/reset-password', [ResetPasswordController::class, 'reset'])
     ->name('password.update');
 /*
-|--------------------------------------------------------------------------
+
 | Public Routes
-|--------------------------------------------------------------------------
+
 */
 
 Route::get('/', function () {
@@ -39,9 +39,9 @@ Route::get('/register', function () {
 })->name('register');
 
 /*
-|--------------------------------------------------------------------------
+
 | Auth Actions
-|--------------------------------------------------------------------------
+
 */
 
 Route::post('/login', [AuthController::class, 'login'])->name('login.post');

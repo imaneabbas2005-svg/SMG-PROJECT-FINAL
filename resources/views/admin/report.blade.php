@@ -279,8 +279,7 @@
                     </tbody>
                 </table>
             </div>
-
-            {{-- Optional: summary row (if you want to calculate totals) --}}
+/* overall totals */
             @php
                 $totalResources = array_sum(array_column($data, 'total_resources'));
                 $totalPdfs = array_sum(array_column($data, 'total_pdfs'));
