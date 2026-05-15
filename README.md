@@ -57,3 +57,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+SMG – Sustainable Management Group
+
+Project Report: Resource Management System
+
+Name: Imane Abbas
+Framework: Laravel 12.58.0
+PHP Version: 8.2.12
+XAMPP Version: 8.2.12
+Database: MySQL (XAMPP – resource_library)
